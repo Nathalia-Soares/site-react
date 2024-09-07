@@ -30,6 +30,7 @@ Abaixo estão as seções principais do layout do projeto:
 
 ## Estrutura de Diretórios
 
+```
 / ├── public/ 
 │ ├── index.html 
 │ └── favicon.ico 
@@ -55,6 +56,7 @@ Abaixo estão as seções principais do layout do projeto:
 ├── package.json 
 ├── README.md 
 └── LICENSE
+```
 
 ## Licença
 
