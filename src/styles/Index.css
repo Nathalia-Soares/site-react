@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #03282F;
+    color: #FFFFFF;
+  }
+  
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  a {
+    color: #00FF71;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #00CE80;
+    border: 2px solid #06FEFC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0, 255, 113, 0.2);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  button:hover::before {
+    opacity: 1;
+  }
+  
+  button:hover {
+    background-color: #00FF71;
+    border-color: #FFFFFF;
+    box-shadow: 0 0 15px #00FF71, 0 0 30px #00FF71, 0 0 45px #00FF71;
+  }
+  
