@@ -30,7 +30,31 @@ Abaixo estão as seções principais do layout do projeto:
 
 ## Estrutura de Diretórios
 
-/ ├── public/ │ ├── index.html │ └── favicon.ico ├── src/ │ ├── assets/ │ │ ├── images/ │ │ │ ├── layout.png │ │ │ └── games/ │ │ │ ├── 01.jpg │ │ │ └── 02.jpg │ ├── components/ │ │ ├── Header.js │ │ ├── Nav.js │ │ ├── Main.js │ │ ├── Aside.js │ │ └── Footer.js │ ├── App.js │ ├── index.js │ └── styles/ │ ├── App.css │ └── index.css ├── .gitignore ├── package.json ├── README.md └── LICENSE
+/ ├── public/ 
+│ ├── index.html 
+│ └── favicon.ico 
+├── src/ 
+│ ├── assets/ 
+│ │ ├── images/ 
+│ │ │ ├── layout.png 
+│ │ │ └── games/ 
+│ │ │ ├── 01.jpg 
+│ │ │ └── 02.jpg 
+│ ├── components/ 
+│ │ ├── Header.js 
+│ │ ├── Nav.js 
+│ │ ├── Main.js 
+│ │ ├── Aside.js 
+│ │ └── Footer.js 
+│ ├── App.js 
+│ ├── index.js 
+│ └── styles/ 
+│ ├── App.css 
+│ └── index.css 
+├── .gitignore 
+├── package.json 
+├── README.md 
+└── LICENSE
 
 ## Licença
 
